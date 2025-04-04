@@ -5,7 +5,7 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.0/firebase
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "Your API KEY",
+  apiKey: "Your API KEY ",
   authDomain: "personal-portfolio-b83d3.firebaseapp.com",
   databaseURL: "https://personal-portfolio-b83d3-default-rtdb.firebaseio.com",
   projectId: "personal-portfolio-b83d3",
