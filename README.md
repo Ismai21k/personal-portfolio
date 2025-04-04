@@ -1,4 +1,4 @@
-Personal Portfolio with Admin Dashboard
+#Personal Portfolio with Admin Dashboard
 
 
 This project is a Personal Portfolio web application with an Admin Dashboard built using HTML, CSS, JavaScript, and Firebase. The Admin Dashboard allows authenticated users to log in and view messages submitted through a contact form on the portfolio.
