@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="admin.css">
+  <script type="module" src="admin.js" defer></script>
+</head>
+<body>
+  <h2>Admin Login</h2>
+  <div id="login-section">
+    <input type="email" id="admin-email" placeholder="Email" required>
+    <input type="password" id="admin-password" placeholder="Password" required>
+    <button id="admin-login-btn">Login</button>
+  </div>
+
+  <div id="admin-dashboard" style="display:none;">
+    <h2>Contact Messages</h2>
+    <button id="logout-btn">Logout</button>
+    <div id="admin-messages"></div>
+  </div>
+</body>
+</html>

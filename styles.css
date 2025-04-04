@@ -1,0 +1,199 @@
+.project-details {
+    display: none;
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.dark-mode .project-details {
+    background-color: #444;
+    color: white;
+}
+
+.profile-picture {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    transition: background-color 0.5s, color 0.5s;
+
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .project {
+    background-color: #333;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+#contact {
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.dark-mode #contact {
+    background-color: #222;
+}
+
+#contact h2 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+#contact p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact-form label {
+    text-align: left;
+    font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    border-color: #007BFF;
+}
+
+#contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#contact-form button {
+    width: fit-content;
+    align-self: center;
+    padding: 12px 25px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.dark-mode #contact-form input,
+.dark-mode #contact-form textarea {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode #contact-form input:focus,
+.dark-mode #contact-form textarea:focus {
+    border-color: #4da3ff;
+}
