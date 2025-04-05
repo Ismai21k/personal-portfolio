@@ -5,7 +5,7 @@ import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/11
 
 // Firebase configuration object containing project-specific details
 const firebaseConfig = {
-    apiKey: "AIzaSyAG85bCBR4Vf3CkOwgsklq6GKA3CeMlJJg", // API key for Firebase authentication
+    apiKey: "Use your API", // API key for Firebase authentication
     authDomain: "personal-portfolio-b83d3.firebaseapp.com", // Firebase project domain
     databaseURL: "https://personal-portfolio-b83d3-default-rtdb.firebaseio.com", // Realtime Database URL
     projectId: "personal-portfolio-b83d3", // Firebase project ID
